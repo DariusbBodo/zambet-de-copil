@@ -1,0 +1,110 @@
+[
+	{
+		"name": "Rochie de Bumbac",
+		"price": 120,
+		"imageUrl": "images/rochie_bumbac.png",
+		"details": "Rochie de bumbac 100%, ideală pentru zilele călduroase de vară."
+	},
+	{
+		"name": "Tricou cu Imprimeu",
+		"price": 50,
+		"imageUrl": "images/tricou_imprimeu.png",
+		"details": "Tricou din bumbac cu imprimeu colorat și vesel."
+	},
+	{
+		"name": "Pantaloni Scurți",
+		"price": 70,
+		"imageUrl": "images/pantaloni_scurti.png",
+		"details": "Pantaloni scurți din denim, perfecti pentru activități în aer liber."
+	},
+	{
+		"name": "Fustă Tutu",
+		"price": 80,
+		"imageUrl": "images/fusta_tutu.png",
+		"details": "Fustă tutu din tulle cu bandă elastică la talie."
+	},
+	{
+		"name": "Jachetă de Primăvară",
+		"price": 150,
+		"imageUrl": "images/jacheta_primavara.png",
+		"details": "Jachetă ușoară și rezistentă la vânt, ideală pentru primăvară."
+	},
+	{
+		"name": "Pijamale cu Desene Animate",
+		"price": 90,
+		"imageUrl": "images/pijamale_desene.png",
+		"details": "Set de pijamale din bumbac cu personaje din desene animate."
+	},
+	{
+		"name": "Bluza cu Mâneci Lungi",
+		"price": 60,
+		"imageUrl": "images/bluza_maneci_lungi.png",
+		"details": "Bluză din bumbac cu mâneci lungi, perfectă pentru zilele răcoroase."
+	},
+	{
+		"name": "Salopetă de Blugi",
+		"price": 130,
+		"imageUrl": "images/salopeta_blugi.png",
+		"details": "Salopetă modernă din denim, confortabilă și stilată."
+	},
+	{
+		"name": "Rochie de Seară",
+		"price": 200,
+		"imageUrl": "images/rochie_seara.png",
+		"details": "Rochie elegantă pentru ocazii speciale, cu detalii din dantelă."
+	},
+	{
+		"name": "Geacă de Iarnă",
+		"price": 250,
+		"imageUrl": "images/geaca_iarna.png",
+		"details": "Geacă călduroasă și impermeabilă, perfectă pentru iarnă."
+	},
+	{
+		"name": "Set de Costume de Baie",
+		"price": 110,
+		"imageUrl": "images/costume_baie.png",
+		"details": "Set de costume de baie cu imprimeuri colorate."
+	},
+	{
+		"name": "Pantaloni de Trening",
+		"price": 85,
+		"imageUrl": "images/pantaloni_trening.png",
+		"details": "Pantaloni de trening confortabili, ideali pentru sport și joacă."
+	},
+	{
+		"name": "Cardigan Tricotat",
+		"price": 100,
+		"imageUrl": "images/cardigan_tricotat.png",
+		"details": "Cardigan tricotat, moale și călduros, perfect pentru toamnă."
+	},
+	{
+		"name": "Rochie de Plajă",
+		"price": 90,
+		"imageUrl": "images/rochie_plaja.png",
+		"details": "Rochie lejeră și colorată, ideală pentru zilele petrecute la plajă."
+	},
+	{
+		"name": "Pulover cu Imprimeu",
+		"price": 70,
+		"imageUrl": "images/pulover_imprimeu.png",
+		"details": "Pulover din lână cu imprimeu vesel, potrivit pentru sezonul rece."
+	},
+	{
+		"name": "Rochie de Balet",
+		"price": 140,
+		"imageUrl": "images/rochie_balet.png",
+		"details": "Rochie de balet cu tulle și detalii strălucitoare."
+	},
+	{
+		"name": "Cămașă cu Carouri",
+		"price": 75,
+		"imageUrl": "images/camasa_carouri.png",
+		"details": "Cămașă din bumbac cu carouri, potrivită pentru orice ocazie."
+	},
+	{
+		"name": "Set de Lenjerie",
+		"price": 50,
+		"imageUrl": "images/set_lenjerie.png",
+		"details": "Set de lenjerie din bumbac, confortabil și moale."
+	}
+]
