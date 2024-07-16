@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "f2692909-e743-439b-b026-c14e344bac9a",
+		"name": "Zambet de copil",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12750300"
+	},
+	"item": [
+		{
+			"name": "Get all products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://668d7a4e099db4c579f31747.mockapi.io/products",
+					"protocol": "https",
+					"host": [
+						"668d7a4e099db4c579f31747",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get product by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://668d7a4e099db4c579f31747.mockapi.io/products",
+					"protocol": "https",
+					"host": [
+						"668d7a4e099db4c579f31747",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new product",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"Compleu de vara\",\r\n        \"price\": 95,\r\n        \"imageUrl\": \"images/compleu_de_vara.png\",\r\n        \"details\": \"Compleu subtire de vara pentru verile calduroase\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://668d7a4e099db4c579f31747.mockapi.io/products",
+					"protocol": "https",
+					"host": [
+						"668d7a4e099db4c579f31747",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Edit a product",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"name\": \"Pantaloni Scurți\",\r\n        \"price\": 70,\r\n        \"imageUrl\": \"https://www.minikidi.ro/continut/produse/36417/1000/pantaloni-scurti-bumbac-copii-6-luni-3-ani_60210.jpg\",\r\n        \"details\": \"Pantaloni scurți din denim, perfecti pentru activități în aer liber.\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://668d7a4e099db4c579f31747.mockapi.io/products/2",
+					"protocol": "https",
+					"host": [
+						"668d7a4e099db4c579f31747",
+						"mockapi",
+						"io"
+					],
+					"path": [
+						"products",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete a product",
+			"request": {
+				"method": "DELETE",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
