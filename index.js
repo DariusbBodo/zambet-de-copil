@@ -17,6 +17,7 @@ function displayAllProducts() {
          <h3 class="card-title">${product.name}</h3>
          <img src=${product.imageUrl} width="150px"/>
          <p class="card-price">${product.price} lei</p>
+			<a href="../pages/details.html?id=${product.id}">Details</a>
       </div>   
       `
 				)
