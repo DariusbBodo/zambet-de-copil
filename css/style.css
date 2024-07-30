@@ -95,3 +95,7 @@ body {
 	border: 2px solid var(--secondary-color);
 	border-radius: 10px;
 }
+
+.w-200 {
+	width: 200px;
+}
