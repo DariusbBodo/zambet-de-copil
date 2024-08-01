@@ -96,6 +96,18 @@ body {
 	border-radius: 10px;
 }
 
-.w-200 {
-	width: 200px;
+.w-150 {
+	width: 150px;
+}
+
+.w-300 {
+	width: 300px;
+}
+
+.h-40 {
+	height: 40px;
+}
+
+.border-bottom {
+	border-bottom: 1px solid gray;
 }
