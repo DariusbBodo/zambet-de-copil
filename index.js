@@ -3,6 +3,7 @@ import { mapProductToCard } from './utils/layout.js';
 
 document.addEventListener('DOMContentLoaded', displayAllProducts);
 const mainContainer = document.querySelector('.main');
+const colorFilterContainer = document.querySelector('.colors');
 
 async function displayAllProducts() {
 	const products = await getAllProducts();
@@ -31,5 +32,32 @@ async function displayAllProducts() {
 
 			localStorage.setItem('cart', JSON.stringify(cart));
 		});
+	});
+
+	const colors = products.map((product) => product.color);
+	const uniqueColors = Array.from(new Set(colors));
+
+	colorFilterContainer.innerHTML += uniqueColors
+		.map(
+			(color) =>
+				`
+			<div class="color-filter ${
+				color === 'multicolor' ? 'multicolor' : ''
+			}" style="background: ${color === 'multicolor' ? '' : color}"
+				data-color=${color}
+				>
+			</div>
+		`
+		)
+		.join('');
+
+	colorFilterContainer.addEventListener('click', (e) => {
+		if (e.target.classList.contains('color-filter')) {
+			const color = e.target.getAttribute('data-color');
+			mainContainer.innerHTML = products
+				.filter((product) => product.color == color)
+				.map(mapProductToCard)
+				.join(' ');
+		}
 	});
 }

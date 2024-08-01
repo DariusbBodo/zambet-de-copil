@@ -111,3 +111,33 @@ body {
 .border-bottom {
 	border-bottom: 1px solid gray;
 }
+
+.filters {
+	padding-top: 50px;
+}
+
+.colors {
+	padding-left: 10px;
+}
+
+.badge {
+	border-radius: 10px;
+	width: 60px;
+	background-color: #f1e5d1;
+	padding: 10px 5px;
+}
+
+.w-100 {
+	width: 100px;
+}
+
+.color-filter {
+	width: 20px;
+	height: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.multicolor {
+	background-image: url(https://previews.123rf.com/images/dyxond/dyxond1611/dyxond161100023/66393202-abstract-colorful-pattern-rainbow-color-spectrum-multicolor-wavy-texture-background-seamless.jpg);
+}
